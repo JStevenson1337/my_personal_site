@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+#titlegroup {
+    color: #742211;
+    text-align: center;
+}
+
+#content {
+    /* min-height: 600px; */
+    height: auto !important;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    border: #fff;
+}
+#logo { 
+    /* float: left; */
+    padding: 1rem 0 1rem 0;
+}
+.hyperlinks {
+    /* flex-direction: row; */
+    text-align: center;
+
+}
+
+a:link {
+    color: blue;
+}
+a:visited {
+    color: #636;
+}
+a:hover, a:active, a:focus {
+    color: #c33;
+}
+#foot {
+    height: 60px;
+    width: auto;
+    border-style: double;
+    border-color: azure;
+    flex-grow: 1;
+    /* position: absolute; */
+}
