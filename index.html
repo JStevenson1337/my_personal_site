@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jeremys' Personal Site</title>
-</head>
-<body>
-    <div id="titlegroup">
+  </head>
+  <body>
+    <header class="header">
+      <div id="content">
+        <section id="logo">
+          <img
+            src="/pics/codeon.jpg"
+            alt="Keep Calm and Code On"
+            style="width: 128px; height: 128px"
+          />
+        </section>
+      </div>
+
+      <div id="titlegroup">
         <h1 class="title">Urban Coders Guild</h1>
         <h2 class="subtitle">Class of 2022</h2>
-    </div>
-    <div id="content">
-        <section id="logo">
-            <img src="/pics/codeon.jpg" alt="keep calm and code on" style="width:128px;height:128px;">
-        </section>
+      </div>
+    </header>
+    <ul class="sidenav">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <div class="content"></div>
+  </body>
 
-    </div>
-</body>
-<footer id="foot">
-    loat: bottom;
+  <footer id="foot">
+    <ul class="bottomnav">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="right"><a href="#about">About</a></li>
+    </ul>
 
-
-    <div class="hyperlinks">
-        <a href="index.html">Home | </a>
-        <a href="content.html">Main | </a>
-        <a href="contact.html">Contact Me | </a> 
-    </div>
+    <p>&copy; 2022 Jeremys' Personal Site</p>
     <script src="scripts.js"></script>
-</footer>
+  </footer>
 </html>
